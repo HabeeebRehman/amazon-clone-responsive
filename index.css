@@ -1,0 +1,269 @@
+*{
+    font-family: Arial, sans-serif;
+    /* background-color:; */
+  
+
+}
+.navbar {
+    width: 100%;
+    background-color:black;
+    height: 60px;
+    display: flex;
+    align-content: space-evenly;
+}  
+.navbar  a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    
+    border: 2px solid white;
+}
+.navbar .search {
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    width: 560px;
+    height: 20px;
+    border-radius:5px;
+}
+  
+#locationlogo{
+    width: 15px;
+    height: 18px;
+}
+
+#ss .button{
+    padding:6px;
+    margin-top:8px;
+    margin-left:10px;
+    width: 25px;
+    height: 20px;
+    border-radius: 5px;
+    left: 5px;
+}
+
+.navbar2 {
+    width: 100%;
+    background-color:#232f3e;
+    height: 45px;
+    display: flex;
+    
+}
+.navbar2 a {
+    float: left;
+    padding: 12px;
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 12px;
+}
+.navbar2 a:hover {
+    border: 2px solid white;  
+}
+#first{
+    background-image: url(https://github.com/Kalvium-Program/amazon-clone-boilerplate/blob/main/assets/background%20picture.png?raw=true);
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center; 
+} 
+body{
+    margin: 0px;
+}
+.resize{
+    display:none;
+   
+}
+@media (max-width:600px){
+    header{
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+}
+
+@media  (max-width:600px){
+    .navbar2{
+      display: none;
+    }
+}
+@media (max-width:600px){
+    body{
+        display: flex;
+        background-color: red;
+   
+    }
+}
+
+@media (max-width:600px){
+    .resize {
+        display: flex;
+        font-size: 50px;
+        color: black;
+        margin-top: 50%;
+        justify-content: flex-start;
+               
+       
+    }
+}
+.box{
+    position: absolute;
+    border: 1px solid black;
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    background-color: #ddd;
+    margin-top: 25%;
+    display: grid;
+    grid-template-columns: 100px 100px ;
+    grid-template-rows: 100px 100px ;
+    gap: 40px; 
+    margin-left: 10px;
+}
+#i1{
+    width: 145px;
+    height: 105px;
+    display: grid;
+    margin-top: -35%;
+  
+}
+#i2{
+    width: 145px;
+    height: 105px;
+    margin-left: 30%;
+    margin-top: -35%;
+   
+}
+ #i3{
+    width: 145px;
+    height: 105px;
+    margin-top: -28%;  
+}
+#i4{ 
+    width: 145px;
+    height: 105px;
+    margin-left: 25%;
+    margin-top: -28%;
+    
+}
+.navbar2 #lion{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-top: -11px;
+    width: 100px;
+    height: 44px;
+}
+h1{
+    font-size: 20px;
+
+}
+span{
+    font-size: 50px;
+}
+.box2{
+    position: absolute;
+    border: 1px solid black;
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    background-color: #ddd;
+    margin-top: 0%;
+    left: 105%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100px 100px ;
+    grid-template-rows: 100px 100px ;
+    gap: 40px; 
+    margin-left: 10px;
+}
+#im1{
+    width: 145px;
+    height: 105px;
+     margin-top: 80px; 
+    margin-left:-140px;
+
+}
+#im2{
+    width: 125px;
+    height: 105px;
+    margin-left: 200px;
+    margin-top: -50%;
+}
+#im3{
+    width: 145px;
+    height: 105px;
+    margin-top: 105px; 
+    margin-left: -140px;
+}
+#im4{
+    width: 145px;
+    height: 105px;
+    margin-left: 200px;
+    margin-top: -40px; 
+}
+.box3{
+    position: absolute;
+    border: 1px solid black;
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    background-color: #ddd;
+    margin-top: 0%;
+   margin-left:210%;
+   text-align: center;
+}
+.box3 >img{
+    height: 280px;
+    width: 350px;
+}
+.box4{
+    position: absolute;
+    border: 1px solid black;
+    padding: 10px;
+    width: 310px;
+    height: 150px;
+    background-color: #ddd;
+    margin-top: 0%;
+   margin-left:315%;
+  
+}
+.box4 >button{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:#FED813;
+    margin-left: 10%;
+}
+.box5{
+    position: absolute;
+    border: 1px solid black;
+    padding: 10px;
+    width: 250px;
+    height: 200px;
+    background-color: #ddd;
+    margin-top: 50%;
+   margin-left:322%;
+   text-align: center;
+}
+h2{
+    width: 350px;
+    height: 27.2;
+}
+h5{
+    font-size: 18px;
+}
+.box5 >img{
+    width: 250px;
+    height: 200px;
+}
